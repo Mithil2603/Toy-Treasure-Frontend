@@ -1,0 +1,233 @@
+.logo-width {
+    width: 15rem;
+    height: 12rem;
+    mix-blend-mode: multiply;
+}
+.dropdown-menu{
+    background-color: bisque;
+    color:darkred;
+}
+.dropdown-menu :hover{
+    color:darkorange;
+}
+.btn {
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+}
+.form-control{
+    width:250px;
+}
+.navbar{
+    background-color: pink;
+}
+.nav-link{
+    font-size: 25px;
+}
+.nav-item {
+    text-decoration: underline;
+    text-decoration-thickness: 1px; /* Thin underline */
+}
+.nav-item{
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+.nav-item :hover{
+color:darkred;
+}
+.register-image {
+    width: 50px; /* Adjust size */
+    height: 50px;
+    border-radius: 10%; /* Makes it circular */
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between icons */
+    position: relative;
+}
+
+.icon-group a {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.icon-group a span {
+    margin-top: 5px;
+}
+
+/* Additional Code */
+/* ✅ Make underline for categories thin */
+.nav-item3 {
+    text-decoration: underline;
+    text-decoration-thickness: 1px; /* Thin underline */
+}
+/* Remove default dropdown arrow */
+.nav-item .dropdown-toggle::after {
+    display: none !important;
+}
+
+.category-link {
+    display: flex;
+    align-items: center;
+}
+
+/* ✅ Increase dropdown arrow size */
+.dropdown-arrow {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+/* ✅ Increase search bar size */
+.search-bar {
+    width: 300px; /* Increase width */
+    height: 45px; /* Adjust height */
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* ✅ Align search button perfectly with the search bar */
+.search-button {
+    height: 45px; /* Same height as search bar */
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+/* ✅ Ensure proper alignment of search form */
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Increased spacing */
+    position: relative;
+}
+
+.icon-group a {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.icon-group a span {
+    margin-top: 5px;
+}
+
+/* ✅ Ensure Register image is circular */
+.register-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+/* Add these styles to your Navbar.css file */
+
+.profile-section {
+    position: relative;
+}
+
+.profile-button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.user-email {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.profile-dropdown {
+    min-width: 200px;
+    padding: 8px 0;
+    margin-top: 8px;
+}
+
+.user-role {
+    color: #666;
+    font-size: 0.9em;
+    padding: 8px 16px;
+}
+
+.dropdown-item {
+    width:10%;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.logout-button {
+    color: #dc3545;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: none;
+}
+
+.logout-button:hover {
+    background-color: #dc354520;
+}
+
+.login-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.login-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.cart-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}

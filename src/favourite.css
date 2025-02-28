@@ -1,0 +1,131 @@
+/* Wishlist Page Styles */
+.wishlist-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .wishlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    color:darkred;
+  }
+  
+  .wishlist-lis {
+    background-color: #FFAA00;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  
+  .wishlist-list:hover {
+    background-color: #96700D;
+  }
+  
+  .wishlist-card {
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wishlist-content {
+    padding: 1rem;
+  }
+  
+  .wishlist-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wishlist-btn {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .wishlist-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .wishlist-name {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .wish-butn {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .bg-amber-700 {
+    background-color: #FFAA00;
+  }
+  
+  .bg-amber-700:hover {
+    background-color: #96700D;
+  }
+  
+  .wishlist-butt {
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 0.25rem;
+  }
+  
+  .wishlist-butt:hover {
+    background-color: #ddd;
+  }
+  
+  .wish-len {
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 3rem;
+    text-align: center;
+    color: var(--text-secondary);
+  }
+  
+  .wishlist-ind {
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wishlist-conte {
+    padding: 1rem;
+  }
+  
+  .lis-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .emp {
+    color: var(--text-secondary);
+    text-align: center;
+  }
+  
+  .wishlist-mp {
+    margin-top: 1rem;
+  }
+  
+  .wishlist-ite {
+    padding: 0.5rem 0;
+  }
+  
+  .wishlist-plus {
+    font-size: 1.25rem;
+  }
+  

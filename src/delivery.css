@@ -1,0 +1,173 @@
+.delivery-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sign-out-wrapper {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sign-out-d {
+  background-color: #d9534f;
+  color: white;
+  width: 200px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sign-out-d:hover {
+  background-color: #c9302c;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.delivery-info {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  width: 23%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.bold-title {
+  font-weight: bold;
+}
+
+.section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.button-container {
+  text-align: center;
+  width: 100%;
+  margin-top: auto; /* Aligns buttons properly */
+}
+
+.view-button,
+.view-button1,
+.view-button2 {
+  display: block;
+  width: 80%;
+  background-color: goldenrod;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px auto; /* Ensures all buttons have equal spacing */
+}
+
+.view-button1 {
+  margin: 10px auto;
+}
+
+.view-button2 {
+  margin: 10px auto;
+}
+
+.view-button:hover,
+.view-button1:hover,
+.view-button2:hover {
+  background-color: darkgoldenrod;
+}
+
+.delivered-orders {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delivered-orders h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.delivered-orders p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.personnel-list {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.personnel-item {
+  padding: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.section-logo {
+  width: 80px;
+  margin-right: 5px;
+}

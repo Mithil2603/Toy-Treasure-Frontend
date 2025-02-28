@@ -1,0 +1,211 @@
+/* Main container styles */
+.min-h-screen {
+    min-height: 80vh;
+  }
+  
+  .bg-gray-50 {
+    background-color: #f9fafb;
+  }
+  
+  /* Content container styles */
+  .max-w-7xl {
+    max-width: 80rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Header styles */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .text-primary {
+    color: #b88846; /* Adjust this color to match your brand's primary color */
+  }
+  
+  .font-serif {
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color:darkred;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  
+  /* Main content container */
+  .bg-white {
+    background-color: white;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  /* Heading styles */
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color:darkred;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Content styles */
+  .prose {
+    max-width: 65ch;
+    color: black;
+  }
+  
+  .max-w-none {
+    max-width: none;
+  }
+  
+  /* List styles */
+  .list-decimal {
+    list-style-type: decimal;
+  }
+  
+  .pl-6 {
+    padding-left: 1.5rem;
+  }
+  
+  .space-y-2 > * + * {
+    margin-top: 0.5rem;
+  }
+  
+  /* Section heading styles */
+  .text-xl {
+    font-size: 1.875rem;
+    line-height: 1.75rem;
+    color:darkred;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .mt-8 {
+    margin-top: 2rem;
+  }
+  
+  /* Animation styles */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply animation to the motion div */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .px-4 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .text-4xl {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+    }
+  
+    .text-3xl {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  
+    .p-8 {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* Additional utility classes */
+  .font-serif {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  /* Link styles */
+  .prose a {
+    color: #b88846;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+  }
+  
+  .prose a:hover {
+    color: #8b6a3d;
+  }
+  
+  /* Table styles */
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+  
+  .prose th,
+  .prose td {
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .prose th {
+    background-color: #f9fafb;
+    font-weight: 600;
+  }

@@ -1,0 +1,157 @@
+/* barbie-styles.css */
+.doll-collection-main {
+    padding: 26px;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  
+  .doll-navigation {
+    color: #444;
+    margin-bottom: 26px;
+  }
+  
+  .doll-navigation span:not(:last-child)::after {
+    content: "/";
+    margin: 0 11px;
+  }
+  
+  .doll-page-title {
+    font-size: 30px;
+    margin-bottom: 34px;
+    font-weight: 800;
+  }
+  
+  .doll-content-grid {
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    gap: 34px;
+  }
+  
+  .doll-filters {
+    padding-right: 26px;
+    border-right: 1px solid #e5e5e5;
+  }
+  
+  .doll-filter-category {
+    margin-bottom: 34px;
+  }
+  
+  .doll-category-name {
+    font-size: 16px;
+    margin-bottom: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .doll-options-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .doll-option-item {
+    margin-bottom: 13px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .doll-option-item:hover {
+    color: #ff69b4;
+  }
+  
+  .doll-price-filter {
+    margin-top: 17px;
+  }
+  
+  .doll-price-bounds {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .doll-top-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+  }
+  
+  .doll-view-controls {
+    display: flex;
+    gap: 17px;
+  }
+  
+  .doll-select-box {
+    padding: 9px 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .doll-product-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 26px;
+  }
+  
+  .doll-item-card {
+    position: relative;
+    padding: 17px;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    transition: all 0.3s;
+  }
+  
+  .doll-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 18px rgba(0,0,0,0.1);
+  }
+  
+  .doll-sale-tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #ff1493;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .doll-item-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 17px;
+    border-radius: 8px;
+  }
+  
+  .doll-item-name {
+    font-size: 16px;
+    margin-bottom: 9px;
+    font-weight: 500;
+  }
+  
+  .doll-item-brand {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 9px;
+  }
+  
+  .doll-price-display {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .doll-original-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 14px;
+  }
+  
+  .doll-current-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff1493;
+  }

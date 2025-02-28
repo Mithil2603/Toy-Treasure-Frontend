@@ -1,0 +1,167 @@
+.receipt-container {
+    min-height: 100vh;
+    background-color: var(--background-light);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .receipt-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .receipt-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+  }
+  
+  .receipt-header h1 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-date, .order-id {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+  }
+  
+  .customer-details,
+  .order-details,
+  .payment-details {
+    margin-bottom: 2rem;
+  }
+  
+  .customer-details h2,
+  .order-details h2,
+  .payment-details h2 {
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .customer-details p {
+    margin: 0.25rem 0;
+    color: var(--secondary-color);
+  }
+  
+  .product-row,
+  .payment-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  
+  .product-name {
+    flex: 2;
+  }
+  
+  .product-quantity {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .product-price {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .payment-row.total {
+    border-top: 2px solid var(--border-color);
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .receipt-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-color);
+  }
+  
+  .receipt-footer p {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #a77735;
+  }
+  
+  /* Success Prompt Styles */
+  .success-prompt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .success-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  .success-content h2 {
+    color: var(--success-color);
+    margin-bottom: 1rem;
+  }
+  
+  /* Add these styles to your existing payments.css */
+  .gpay-details {
+    margin-top: 1rem;
+  }
+  
+  .upi-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.375rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .upi-info {
+    font-size: 0.875rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 640px) {
+    .receipt-container {
+      padding: 1rem;
+    }
+  
+    .receipt-card {
+      padding: 1rem;
+    }
+  }

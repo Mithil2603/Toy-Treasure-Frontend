@@ -1,0 +1,164 @@
+/* :root {
+  --primary-red: #B71C1C;
+  --primary-gold: #D4AF37;
+  --primary-brown: #654321;
+  --primary-cream: #FFF5E6;
+} */
+
+/* General Styling */
+.toytreasure-container {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Promo Banner */
+.promo-banner {
+  background-color:pink;
+  color:black;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Header Styling */
+.toytreasure-header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+
+  .contact-container {
+    background-color:whitesmoke;
+    color:black;
+    padding: 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-header {
+    margin-bottom: 20px;
+  }
+  
+  .logo-text-container {
+    display: flex;
+    color:darkred;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .logo-text-container img.logo {
+    width: 130px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #333;
+  }
+  
+  .company-details {
+    text-align: left;
+  }
+  
+  .company-names {
+    font-size: 2em;
+    color:darkred;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .contact-title {
+    font-size: 1.2em;
+    color:black;
+    font-weight: 600; /* Slightly bold */
+    margin: 5px 0 0;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e65c55;
+  }
+  
+
+.form-group {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 19px;
+  font-weight: 600;
+  color:black;
+}
+
+.error-input {
+  border-color: #dc3545 !important;
+  background-color: #fff8f8;
+}
+
+.error-text {
+  color: #dc3545;
+  font-size: 0.875em;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-color: #ff6f61;
+  box-shadow: 0 0 0 2px rgba(255, 111, 97, 0.2);
+}
